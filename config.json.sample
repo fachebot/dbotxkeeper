@@ -1,0 +1,8 @@
+{
+  "chain": "bsc",
+  "apikey": "",
+  "wallet_id": "",
+  "my_wallet": "",
+  "target_wallet": "",
+  "sell_delay_seconds": 5
+}

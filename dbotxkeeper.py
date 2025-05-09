@@ -132,7 +132,7 @@ class Worker():
                 flush_db(self.db)
 
                 self.trades = self.trades[1:]
-                logging.info(f"卖出代币完成, token: {token}, id: {res["id"]}")
+                logging.info(f"卖出代币完成, token: {token}, id: {res['id']}")
             except Exception as e:
                 logging.error(f"卖出代币失败, token: {token}, {str(e)}")
 
